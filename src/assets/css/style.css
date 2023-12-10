@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "Roboto";
+	src: url(/src/assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+button {
+	border: none;
+	padding: 5px 20px;
+	background-color: #00000099;
+	color: white;
+}
+
+input {
+	font-family: Roboto, Helvetica, sans-serif;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #00000022;
+}
+
+.LogInForm form {
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* .LogInForm form h1, .LogInForm form input, .LogInForm form button {
+	display: flex;
+} */
+
+.Blurb {
+	padding: 10px;
+}
+
+.NavBar {
+	padding: 10px;
+	width: 100%;
+	background-color: #00000022;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.NavBar .logInButtonContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.LoggedInApp {
+	padding: 10px;
+}
+
+
+.LoggedInApp button {
+	width: 100%;
+}
+
+.Footer {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	background-color: #00000022;
+}
+
+.FooterColumn {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	flex-basis: 33%;
+}
