@@ -6,7 +6,8 @@ export default class Blurb extends EdUiElement {
 		<br>
 		<h3>Links</h3>
 		<div>
-			<button style='width: 100%;' onclick='window.location.assign("https://edmundbrown.com")' class='edBrownButton'>https://edmundbrown.com</button>
+			<button style='width: 100%; margin-bottom: 5px;' onclick='window.location.assign("https://edmundbrown.com")'>https://edmundbrown.com</button>
+			<button style='width: 100%;' onclick='window.location.assign("https://github.com/Jimbothemighty/edUi")'>View on GitHub</button>
 		</div>
 		<br>
 		<h3>Production features</h3>
